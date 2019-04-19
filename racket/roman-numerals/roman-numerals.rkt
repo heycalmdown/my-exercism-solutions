@@ -19,5 +19,3 @@
     [(>= n    1) (~a "I"  (to-roman (- n    1)))]
     [else ""]))
 
-;; (to-roman 10)
-(to-roman 19)
